@@ -1,7 +1,7 @@
 Hooks.once('init', () => {
 	if(typeof Babele !== 'undefined') {
 		Babele.get().register({
-			module: 'swadekrfortsm',
+			module: 'swadecorekr',
 			lang: 'ko',
 			dir: 'comp'
 		});
