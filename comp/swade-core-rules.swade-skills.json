@@ -1,7 +1,7 @@
 {
 	"label": "새비지월드 기술",
 	"mapping": {
-		"desc": "<div class='swade-core'><p>data.description",
+		"desc": "data.description",
 		"req": "data.requirements.value"
 	},
 	"entries": [
