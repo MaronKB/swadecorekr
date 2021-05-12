@@ -1,0 +1,174 @@
+{
+	"label": "기술",
+	"mapping": {
+		"desc": "data.description",
+		"req": "data.requirements.value"
+	},
+	"entries": [
+		{
+			"id": "Academics",
+			"name": "학문 (Academics)",
+			"desc": "학문은 철학, 문학, 사회과학, 역사학, 고고학 등과 같은 분야의 지식수준을 나타냅니다."
+		},
+		{
+			"id": "Athletics",
+			"name": "운동 (Athletics)",
+			"desc": "운동은 전반적 신체능력을 나타냅니다. 오르기, 뛰기, 균형잡기, 레슬링, 스키, 수영, 투척, 잡기 등에 사용합니다."
+		},
+		{
+			"id": "Battle",
+			"name": "전술 (Battle)",
+			"desc": "전술은 전략과 군사에 관한 이해도를 나타냅니다. 난전의 핵심 기술입니다."
+		},
+		{
+			"id": "Boating",
+			"name": "항해 (Boating)",
+			"desc": "항해는 보트, 배, 또는 기타 선박을 조종하고 항해하는 기술입니다."
+		},
+		{
+			"id": "Common Knowledge",
+			"name": "상식 (Common Knowledge)",
+			"desc": "상식은 캐릭터가 사는 세상에 대한 일반적 지식수준을 나타냅니다."
+		},
+		{
+			"id": "Driving",
+			"name": "운전 (Driving)",
+			"desc": "운전은 육상 이동수단을 제어, 조향, 조작할 수 있는 기술입니다."
+		},
+		{
+			"id": "Electronics",
+			"name": "전자공학 (Electronics)",
+			"desc": "전자공학은 전자 장치/시스템을 운용할 수 있는 기술입니다."
+		},
+		{
+			"id": "Faith",
+			"name": "신앙 (Faith)",
+			"desc": "신앙은 마도 배경(기적)에 대한 마도 기술입니다."
+		},
+		{
+			"id": "Fighting",
+			"name": "격투 (Fighting)",
+			"desc": "격투는 무장/비무장 전투에 관한 기술입니다."
+		},
+		{
+			"id": "Focus",
+			"name": "집중 (Focus)",
+			"desc": "집중은 마도 배경(재능)에 대한 마도 기술입니다."
+		},
+		{
+			"id": "Gambling",
+			"name": "도박 (Gambling)",
+			"desc": "도박은 확률적인 놀이에 대한 능숙함과 기술을 나타냅니다."
+		},
+		{
+			"id": "Hacking",
+			"name": "해킹 (Hacking)",
+			"desc": "해킹은 코딩하고, 프로그래밍하고, 남의 컴퓨터 시스템에 침입하는 기술입니다."
+		},
+		{
+			"id": "Healing",
+			"name": "치료 (Healing)",
+			"desc": "치료는 상처와 질병을 치료하고 법의학적 증거를 취득하는 기술입니다."
+		},
+		{
+			"id": "Intimidation",
+			"name": "협박 (Intimidation)",
+			"desc": "협박은 자신이 원하는 것을 타인에게 위협으로 강제하는 기술입니다."
+		},
+		{
+			"id": "Language",
+			"name": "언어 (Language)",
+			"desc": "언어는 특정 언어에 대한 지식과 구사력을 나타냅니다."
+		},
+		{
+			"id": "Notice",
+			"name": "주의력 (Notice)",
+			"desc": "주의력은 일반적 인식능력과 파악력을 나타냅니다."
+		},
+		{
+			"id": "Occult",
+			"name": "오컬트 (Occult)",
+			"desc": "오컬트는 초자연적 사건, 생물, 역사, 그리고 실행적 방법론에 대한 지식수준을 나타냅니다."
+		},
+		{
+			"id": "Performance",
+			"name": "공연 (Performance)",
+			"desc": "공연은 노래, 춤, 연기 등 대중 표현에 대한 기술입니다."
+		},
+		{
+			"id": "Persuasion",
+			"name": "설득 (Persuasion)",
+			"desc": "설득은 자신이 원하는 것을 타인에게 논리적으로 요구하는 기술입니다."
+		},
+		{
+			"id": "Piloting",
+			"name": "조종 (Piloting)",
+			"desc": "조종은 비행기, 헬리콥터처럼 3차원 기동을 하는 이동수단을 조종하는 기술입니다."
+		},
+		{
+			"id": "Psionics",
+			"name": "초능력 (Psionics)",
+			"desc": "초능력은 마도 배경(초능력)에 대한 마도 기술입니다."
+		},
+		{
+			"id": "Repair",
+			"name": "수리 (Repair)",
+			"desc": "수리는 기계 장치나 전자 장비를 교정하고 수리하는 기술입니다."
+		},
+		{
+			"id": "Research",
+			"name": "조사 (Research)",
+			"desc": "조사는 다양한 정보를 찾고 정리하는 기술입니다."
+		},
+		{
+			"id": "Riding",
+			"name": "기승 (Riding)",
+			"desc": "기승은 길들여진 동물에 올라타 제어하는 기술입니다."
+		},
+		{
+			"id": "Science",
+			"name": "과학 (Science)",
+			"desc": "과학은 생물학, 화학, 지질학, 공학 등의 분야에 대한 지식수준을 나타냅니다."
+		},
+		{
+			"id": "Shooting",
+			"name": "사격 (Shooting)",
+			"desc": "사격은 모든 종류의 원거리 무기에 대한 정밀성을 나타냅니다."
+		},
+		{
+			"id": "Spellcasting",
+			"name": "주문 (Spellcasting)",
+			"desc": "주문은 마도 배경(마법)에 대한 마도 기술입니다."
+		},
+		{
+			"id": "Stealth",
+			"name": "은신 (Stealth)",
+			"desc": "은신은 시선에서 벗어나 몰래 숨는 기술입니다."
+		},
+		{
+			"id": "Survival",
+			"name": "생존 (Survival)",
+			"desc": "생존은 음식, 물, 피난처를 물색하고 추적하는 기술입니다."
+		},
+		{
+			"id": "Taunt",
+			"name": "조롱 (Taunt)",
+			"desc": "조롱은 타인을 모욕하거나 일축하는 기술입니다."
+		},
+		{
+			"id": "Thievery",
+			"name": "도둑질 (Thievery)",
+			"desc": "도둑질은 손재주, 소매치기, 자물쇠 따기 등 음습한 기술들에 대한 숙련도를 나타냅니다."
+		},
+		{
+			"id": "Untrained",
+			"name": "미숙 (Untrained)",
+			"desc": ""
+		},
+		{
+			"id": "Weird Science",
+			"name": "괴과학 (Weird Science)",
+			"desc": "괴과학은 마도 배경(괴과학)에 대한 마도 기술입니다."
+		}
+	]
+}
