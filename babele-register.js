@@ -5,37 +5,8 @@ Hooks.once('init', () => {
 			lang: 'ko',
 			dir: 'comp'
 		});
-
-		Babele.get().registerConverters({
-			"weight": (value) => { return parseInt(value)/2 },
-			"range": (range) => {
-				if(range) {
-					if(range.units === 'ft') {
-						if(range.long) {
-							range = mergeObject(range, { long: Math.floor(range.long*0.3) });
-						}
-						return mergeObject(range, { value: Math.floor(range.value*0.3) });
-					}
-					if(range.units === 'mi') {
-						if(range.long) {
-							range = mergeObject(range, { long: Math.floor(range.long*1.5) });
-						}
-						return mergeObject(range, { value: range.value*1.5 });
-					}
-					return range;
-				}
-			}
-		});
-
-		CONFIG.DND5E.encumbrance.currencyPerWeight = 100;
-		CONFIG.DND5E.encumbrance.strMultiplier = 7.5;
-	}
 });
-
-Hooks.on('preCreateScene', (scene) => {
-	mergeObject(scene, { "gridUnits": "mt", "gridDistance": 1.5 });
-});
-
+	
 Hooks.on('renderCompendium', async (compendium, html, options) => {
   let compendiumContent = null;
   let newOptions = duplicate(options);
